@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=PyXMMS
+GenericName=Music Player
+Comment=PyXMMS, a classic-style music player
+Exec=pyxmms
+Icon=pyxmms
+Terminal=false
+Categories=AudioVideo;Audio;Player;
+StartupNotify=true
+StartupWMClass=pyxmms

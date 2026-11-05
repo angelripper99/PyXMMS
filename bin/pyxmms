@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Launch PyXMMS from this project. The script lives in bin/ because the
+# package directory is already named pyxmms.
+cd "$(dirname "$(readlink -f "$0")")/.."
+exec python3 -m pyxmms "$@"
