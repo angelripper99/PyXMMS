@@ -183,7 +183,8 @@ class MainWindow(MetalWindow):
             right -= gap
 
         self.seek.setGeometry(metrics.seek)
-        label_w = max(22, 14 * scale)
+        label_font = metrics.font(metrics.small_px, bold=True)
+        label_w = QFontMetrics(label_font).horizontalAdvance("VOL") + 6 * scale
         vy = metrics.vol_y
         vh = metrics.vol_h
         self._vol_label = QRect(metrics.margin, vy, label_w, vh)

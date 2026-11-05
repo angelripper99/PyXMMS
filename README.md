@@ -1,5 +1,8 @@
 # PyXMMS
 
+<img src="assets/screenshot-player.png" alt="PyXMMS, with the main window, equalizer, and playlist" width="550">
+<img src="assets/screenshot-video.png" alt="The video window, open while a picture is playing" width="640">
+
 A classic music player for current Linux: main controls, playlist, and a 10-band equalizer. A video window opens when the file has a picture. Playback goes through libmpv, so it plays what `mpv` plays (MP3, Ogg, FLAC, Opus, WAV, M4A, MP4, MKV, WebM, and the rest).
 
 PyXMMS is a new player with the layout and habits of the classic GTK 1 player XMMS from 2007, drawn from scratch. PyXMMS is not that project, and it does not load Winamp skin files.
